@@ -1,0 +1,56 @@
+body {
+    font-family: "Jua";
+    background: #F2F2F2;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+@font-face {
+    src: url("./../fonts/BMJUA_otf.otf");
+    font-family: "Jua";
+}
+h1.main {
+    font-size: 64px;
+    color: #58595B;
+    background-color: #FFD8CC;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+.menu{
+    font-size: 30px;
+    color: #58595B;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.link{
+    padding: 20px;
+    margin-right: 10px;
+    background-color: rgb(238, 183, 191);
+    border-radius: 30px;
+
+}
+.text{
+    font-size: 30px;
+    color: #58595B;
+    background-color: #ecefe9;
+    padding: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+.open{
+    border-radius: 10px;
+    text-align: center;
+}
+a{
+    color: #58595B;
+    text-decoration: beige;
+}
