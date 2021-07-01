@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+    <title>share</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #58595B;
+        }
+        body {
+        margin-top: 100px;
+        background-color: #FFD8CC;
+        }
+
+        .intro-form {
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            background-color: #EEEFF1;
+            border: 0px;
+            padding: 20px;
+            border-radius: 5px
+        }
+
+        .text-field {
+        border: 0px;
+        font-size: 14px;
+        width: 260px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        }
+
+        .submit-btn {
+        border: 0px;
+        font-size: 14px;
+        width:260px;
+        padding:10px;
+        background-color:#FFD8CC;
+        border-radius: 5px;
+        }
+
+        .submit-btn:hover {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+        }
+
+        .links {
+            color: #9B9B9B;
+            margin-top: 20px;
+        }
+
+        .links a {
+            
+            color: #9B9B9B;
+            font-size: 12px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>나의 일상 공유하기</h1>
+    <form>
+        <fieldset class="intro-form">
+            <legend>자신을 소개해주세요</legend>
+            <p><input class="text-field" type="text" name="name" placeholder="이름"></p>
+            <p><input class="text-field" type="text" name="number" placeholder="학번"></p>
+        </fieldset>
+        <fieldset>
+            <legend>좋아하는 분야</legend>
+            <input type="radio" name="favorite" value="1">music<br>
+            <input type="radio" name="favorite" value="2">movie<br>
+            <input type="radio" name="favorite" value="3">food
+        </fieldset>
+            <p>content</p>
+            <textarea rows="5" cols="50" placeholder="공유하고 싶은 일상을 작성해주세요*^^*."></textarea><br>
+            <center>
+                <input type="submit" value="공유하기">
+                <input type="reset" value="다시 쓰기">
+            </center>
+        </fieldset>
+
+    </form>
+
+
+</body>
+</html>
